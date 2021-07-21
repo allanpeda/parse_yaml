@@ -3,7 +3,7 @@
 # source: https://github.com/mrbaseman/parse_yaml.git
 
 function parse_yaml {
-   local prefix=$2
+   local prefix=${2:-}
    local separator=${3:-_}
 
    local indexfix
